@@ -76,7 +76,7 @@ Windows Registry Editor Version 5.00
 ; Copy file name (with extension)
 ; ==========================
 [HKEY_CURRENT_USER\Software\Classes\*\shell\CopyFileName]
-@="Copy file name"
+@="Copy as filename (with extension)"
 "Icon"="%SystemRoot%\\System32\\shell32.dll,259"
 
 [HKEY_CURRENT_USER\Software\Classes\*\shell\CopyFileName\command]
@@ -86,7 +86,7 @@ Windows Registry Editor Version 5.00
 ; Copy file name (without extension)
 ; ==========================
 [HKEY_CURRENT_USER\Software\Classes\*\shell\CopyFileNameNoExt]
-@="Copy file name (no extension)"
+@="Copy as filename"
 "Icon"="%SystemRoot%\\System32\\shell32.dll,259"
 
 [HKEY_CURRENT_USER\Software\Classes\*\shell\CopyFileNameNoExt\command]
@@ -170,7 +170,7 @@ INSTALL – copy_as_path.reg
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyAsPath]
-@="Copy as path"
+@="Copy as full path"
 
 [HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyAsPath\Command]
 @="cmd.exe /c echo %1|clip"
