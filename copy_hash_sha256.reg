@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; ==========================
+; Copy SHA-256
+; ==========================
+[HKEY_CURRENT_USER\Software\Classes\*\shell\CopySHA256]
+@="Copy SHA-256"
+"Icon"="%SystemRoot%\\System32\\shell32.dll,23"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\CopySHA256\command]
+@="cmd.exe /c certutil -hashfile \"%1\" SHA256 | findstr /R /V \"hash of\" | clip"
