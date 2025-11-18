@@ -12,7 +12,7 @@ If any features somehow don't work for you there are uninstall files for each fe
 
 Pick & choose the ones you want they aren't bundled together
 
-**NOTE**  
+**NOTE:**  
 *The open PowerShell here option opens PowerShell inside of Command Prompt*
 
 ---
